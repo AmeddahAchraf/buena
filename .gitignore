@@ -1,0 +1,39 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor / tooling
+.vscode/
+.idea/
+.claude/
+
+# Node / Next.js (workbench app)
+node_modules/
+.next/
+*.tsbuildinfo
+next-env.d.ts
+
+# Env / secrets
+.env
+.env.local
+.env.*.local
+
+# Build artifacts
+dist/
+build/
+
+# Local caches (regeneratable from inputs)
+.workbench-cache/
+.workbench-verdict-cache/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python (if any scripts)
+__pycache__/
+*.pyc
+.venv/
+venv/

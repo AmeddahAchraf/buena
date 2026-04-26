@@ -1,0 +1,44 @@
+{
+  "name": "property-context-workbench",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "build:all": "tsx --env-file=.env.local scripts/build-all.ts",
+    "process:incremental": "tsx --env-file=.env.local scripts/process-incremental.ts",
+    "clean": "rm -rf ../out ../.workbench-cache"
+  },
+  "dependencies": {
+    "@types/ws": "^8.18.1",
+    "diff": "^7.0.0",
+    "fast-xml-parser": "^4.5.0",
+    "mailparser": "^3.7.1",
+    "next": "14.2.15",
+    "openai": "^4.77.0",
+    "papaparse": "^5.4.1",
+    "pdf-parse": "^1.1.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-markdown": "^9.0.1",
+    "remark-gfm": "^4.0.0",
+    "ws": "^8.20.0"
+  },
+  "devDependencies": {
+    "@types/diff": "^6.0.0",
+    "@types/mailparser": "^3.4.4",
+    "@types/node": "^22.7.4",
+    "@types/papaparse": "^5.3.15",
+    "@types/pdf-parse": "^1.1.4",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.2"
+  }
+}
