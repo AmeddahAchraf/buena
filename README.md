@@ -22,7 +22,7 @@ cd buena/workbench
 # 2. install
 npm install
 
-# 3. configure (optional — works without an API key)
+# 3. configure api keys must be valid for this to work
 cp .env.example .env.local
 # then edit .env.local and add GOOGLE_API_KEY=... if you have one
 
